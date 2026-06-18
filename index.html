@@ -217,6 +217,33 @@
       transition: border-color 0.2s, transform 0.2s;
       letter-spacing: 0.5px;
     }
+    .abrir{
+      background: transparent;
+
+      font-family: var(--font-mono);
+      font-size: 10px;
+      color: var(--gold-dim);
+      border: 1px solid rgba(201,168,76,0.2);
+      padding: 3px 10px;
+      border-radius: 4px;
+    }
+    .abrir:hover { background: var(--gold); color: var(--bg) !important; }
+
+
+      
+
+
+    .btn-ver{
+    display:inline-block;
+    margin-top:15px;
+    padding:10px 20px;
+    background:#0ea5e9;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+
     .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-1px); }
 
     /* terminal card */
@@ -701,7 +728,7 @@
       <!-- photo -->
       <div class="about-photo-wrap reveal">
         <div class="photo-ring">
-          <div class="photo-inner"><img src="perfil.jpeg"/></div>
+          <div class="photo-inner"><img src="perfil1.png"  style="height: 100%; width: 100%; object-fit: cover;""/></div>
         </div>
         <div class="photo-slogan">
           "code · build · deploy"<br>
@@ -763,7 +790,7 @@
 <section id="projects">
   <div class="container">
     <div class="section-label">Projectos</div>
-    <h2 class="section-title">Trabalho desenvolvido<br>na disciplina</h2>
+    <h2 class="section-title">Trabalho desenvolvido<br>na careira</h2>
 
     <div class="projects-grid">
 
@@ -777,25 +804,16 @@
             <span class="ptag">Canva</span>
             <span class="ptag">Design</span>
             <span class="ptag">Tipografia</span>
+    <span class="abrir">   <a href="cartaz1.png" target="_blank">
+            Ver Projecto
+        </a></span>
           </div>
         </div>
       </div>
 
-      <div class="project-card reveal">
-        <div class="project-thumb" style="background:linear-gradient(135deg,#0f2027,#203a43,#2c5364)"><video src="ANIMACAO. meu trabalho.mp4"></video></div>
-        <div class="project-body">
-          <div class="project-type">Vídeo</div>
-          <h3 class="project-title">Produção de Vídeo Multimédia</h3>
-          <p class="project-desc">Edição e produção de vídeo com técnicas de corte, transições, efeitos sonoros e narração para apresentação académica.</p>
-          <div class="project-tags">
-            <span class="ptag">Edição de Vídeo</span>
-            <span class="ptag">Motion</span>
-            <span class="ptag">Pencil 2d</span>
-          </div>
-        </div>
-      </div>
+      
 
-      <div class="project-card reveal">
+        <div class="project-card reveal">
         <div class="project-thumb" style="background:linear-gradient(135deg,#1a1a1a,#2d1b69)"><video src="mesa.mp4"></video></div>
         <div class="project-body">
           <div class="project-type">Modelação 3D</div>
@@ -805,10 +823,69 @@
             <span class="ptag">Blender</span>
             <span class="ptag">Animation</span>
             <span class="ptag">3D Render</span>
+             <span class="abrir">   <a href="mesa.mp4" target="_blank">
+            Ver Projecto
+        </a></span>
           </div>
         </div>
       </div>
 
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#0f2027,#203a43,#2c5364)"><video src="utdeg.mp4" style="width: 100%; "></video></div>
+        <div class="project-body">
+          <div class="project-type">Vídeo</div>
+          <h3 class="project-title">Produção de Vídeo Multimédia</h3>
+          <p class="project-desc">Edição e produção de vídeo com técnicas de corte, transições, efeitos sonoros e narração para apresentação académica.</p>
+          <div class="project-tags">
+             <span class="ptag">Edição de vídeo</span>
+              <span class="ptag">Motion</span>
+             <span class="ptag">HeyGen</span>
+            <span class="abrir">   <a href="utdeg.mp4" target="_blank">
+            Ver Projecto
+        </a></span>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#0f2027,#203a43,#2c5364)"><video src="imagem final.mp4" style="width: 100%; "></video></div>
+        <div class="project-body">
+          <div class="project-type">Animação 2d</div>
+          <h3 class="project-title">Produção de Animação 2d</h3>
+          <p class="project-desc">Criação de uma animação 2D desenvolvida no Pencil2D, incluindo ilustração quadro a quadro, definição de movimentos, e edição final para apresentação académica.</p>
+          <div class="project-tags">
+            <span class="ptag">Animation</span>
+            <span class="ptag">Motion</span>
+            <span class="ptag">Pencil 2d</span>
+            <span class="abrir">   <a href="imagem final.mp4" target="_blank">
+            Ver Projecto
+        </a></span>
+          </div>
+        </div>
+      </div>
+
+     
+      <div class="project-card reveal">
+        <div class="project-thumb" style="background:linear-gradient(135deg,#1a1a2e,#16213e)"><img src="cartaz.png"/></div>
+        <div class="project-body">
+          <div class="project-type">Design Gráfico</div>
+          <h3 class="project-title">Cartaz Digital — Evento Universitário</h3>
+          <p class="project-desc">Criação de cartaz promocional para evento académico utilizando princípios de design gráfico, tipografia e composição visual equilibrada.</p>
+          <div class="project-tags">
+            <span class="ptag">Canva</span>
+            <span class="ptag">Design</span>
+              <span class="ptag">Tipografia</span> 
+             <span class="abrir">   <a href="cartaz.png" target="_blank">
+            Ver Projecto
+        </a></span>
+            
+          </div>
+        </div>
+      </div>
+
+      
      
 
     </div>
@@ -982,3 +1059,17 @@
 </script>
 </body>
 </html>
+
+    
+   
+   
+    
+   
+    
+
+      
+    
+
+     
+ 
+ 
